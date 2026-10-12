@@ -1,0 +1,35 @@
+.link {
+    border-style: double;
+    border-width: thick;
+}
+
+body {
+    background-color: rgb(34, 108, 219);
+}
+
+h4 {
+    color: rgb(253, 253, 253);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Profile {
+    display: block;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    left: calc(50% - 70px);
+    border-radius: 50%;
+    object-fit: cover;
+}
